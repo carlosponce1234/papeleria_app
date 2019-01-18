@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.5.1
--- http://www.phpmyadmin.net
+-- version 4.6.6deb5
+-- https://www.phpmyadmin.net/
 --
--- Servidor: 127.0.0.1
--- Tiempo de generación: 02-04-2017 a las 02:49:08
--- Versión del servidor: 10.1.19-MariaDB
--- Versión de PHP: 7.0.13
+-- Servidor: localhost:3306
+-- Tiempo de generación: 18-01-2019 a las 10:21:51
+-- Versión del servidor: 5.7.24-0ubuntu0.18.04.1
+-- Versión de PHP: 7.2.10-0ubuntu0.18.04.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de datos: `test_inv`
+-- Base de datos: `inventario_app`
 --
 
 -- --------------------------------------------------------
@@ -113,7 +113,7 @@ CREATE TABLE `invento_users` (
 --
 
 INSERT INTO `invento_users` (`id`, `username`, `password`, `name`, `email`, `role`, `date_added`) VALUES
-(1, 'admin', 'e10adc3949ba59abbe56e057f20f883e', 'Obed Alvarado', 'admin@admin.com', 1, '2017-04-01');
+(1, 'admin', 'fa02f6d645320dc968415da3b5987cc2', 'carlos Perez', 'carlos.perez@alviacomercial.com', 1, '2017-04-01');
 
 --
 -- Índices para tablas volcadas
